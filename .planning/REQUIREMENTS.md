@@ -111,13 +111,45 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| FOUND-01 to FOUND-07 | Phase 1 | Pending |
-| NAV-01 to NAV-04 | Phase 1 | Pending |
-| LAND-01 to LAND-07 | Phase 1 | Pending |
-| MARK-01 to MARK-05 | Phase 1 | Pending |
-| MODEL-01 to MODEL-05 | Phase 1 | Pending |
-| RES-01 to RES-05 | Phase 1 | Pending |
-| LOG-01 to LOG-06 | Phase 1 | Pending |
+| FOUND-01 | Phase 1 — Scaffold & Style System | Pending |
+| FOUND-02 | Phase 1 — Scaffold & Style System | Pending |
+| FOUND-03 | Phase 1 — Scaffold & Style System | Pending |
+| FOUND-04 | Phase 1 — Scaffold & Style System | Pending |
+| FOUND-05 | Phase 1 — Scaffold & Style System | Pending |
+| FOUND-06 | Phase 1 — Scaffold & Style System | Pending |
+| FOUND-07 | Phase 1 — Scaffold & Style System | Pending |
+| NAV-01 | Phase 1 — Scaffold & Style System | Pending |
+| NAV-02 | Phase 1 — Scaffold & Style System | Pending |
+| NAV-03 | Phase 1 — Scaffold & Style System | Pending |
+| NAV-04 | Phase 1 — Scaffold & Style System | Pending |
+| LAND-01 | Phase 2 — Landing Screen | Pending |
+| LAND-02 | Phase 2 — Landing Screen | Pending |
+| LAND-03 | Phase 2 — Landing Screen | Pending |
+| LAND-04 | Phase 2 — Landing Screen | Pending |
+| LAND-05 | Phase 2 — Landing Screen | Pending |
+| LAND-06 | Phase 2 — Landing Screen | Pending |
+| LAND-07 | Phase 2 — Landing Screen | Pending |
+| MARK-01 | Phase 3 — Analysis Screens | Pending |
+| MARK-02 | Phase 3 — Analysis Screens | Pending |
+| MARK-03 | Phase 3 — Analysis Screens | Pending |
+| MARK-04 | Phase 3 — Analysis Screens | Pending |
+| MARK-05 | Phase 3 — Analysis Screens | Pending |
+| MODEL-01 | Phase 3 — Analysis Screens | Pending |
+| MODEL-02 | Phase 3 — Analysis Screens | Pending |
+| MODEL-03 | Phase 3 — Analysis Screens | Pending |
+| MODEL-04 | Phase 3 — Analysis Screens | Pending |
+| MODEL-05 | Phase 3 — Analysis Screens | Pending |
+| RES-01 | Phase 4 — Decision & Log Screens | Pending |
+| RES-02 | Phase 4 — Decision & Log Screens | Pending |
+| RES-03 | Phase 4 — Decision & Log Screens | Pending |
+| RES-04 | Phase 4 — Decision & Log Screens | Pending |
+| RES-05 | Phase 4 — Decision & Log Screens | Pending |
+| LOG-01 | Phase 4 — Decision & Log Screens | Pending |
+| LOG-02 | Phase 4 — Decision & Log Screens | Pending |
+| LOG-03 | Phase 4 — Decision & Log Screens | Pending |
+| LOG-04 | Phase 4 — Decision & Log Screens | Pending |
+| LOG-05 | Phase 4 — Decision & Log Screens | Pending |
+| LOG-06 | Phase 4 — Decision & Log Screens | Pending |
 
 **Coverage:**
 - v1 requirements: 34 total
@@ -126,4 +158,4 @@
 
 ---
 *Requirements defined: 2026-04-26*
-*Last updated: 2026-04-26 after initial definition*
+*Last updated: 2026-04-26 after roadmap creation — traceability expanded to per-requirement rows*
