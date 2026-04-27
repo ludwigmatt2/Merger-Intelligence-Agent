@@ -29,7 +29,11 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. A glassmorphism panel (`div.glass-panel`) rendered on any screen shows backdrop blur, rgba background, and cyan border glow — visually matching the design spec
   4. Inter and JetBrains Mono fonts load correctly (visible difference between UI labels and data values)
   5. All CSS is injected from a single `core/styles.py` call — no inline style blocks exist in any screen file
-**Plans**: TBD
+**Plans**: 3 plans
+Plans:
+- [x] 01-01-PLAN.md — Project scaffold: directories, config.toml, requirements.txt, session state schema, mock data, stub screens/components
+- [x] 01-02-PLAN.md — CSS system: base.css (fonts + chrome suppression), components.css (glassmorphism + .mono), sidebar.css (nav active state), animations.css (orb keyframes) + core/styles.py
+- [ ] 01-03-PLAN.md — App entry point: app.py with CSS injection, state init, 5-item sidebar nav with active highlighting, screen router
 **UI hint**: yes
 
 ### Phase 2: Landing Screen
@@ -77,7 +81,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Scaffold & Style System | 0/TBD | Not started | - |
+| 1. Scaffold & Style System | 0/3 | Not started | - |
 | 2. Landing Screen | 0/TBD | Not started | - |
 | 3. Analysis Screens | 0/TBD | Not started | - |
 | 4. Decision & Log Screens | 0/TBD | Not started | - |
