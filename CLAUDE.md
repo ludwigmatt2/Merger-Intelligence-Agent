@@ -31,6 +31,20 @@ After every completed development task in this project, append one row to `promp
 
 **Nr sequence:** P-DEV-XX increments across all dev sessions (check the last row in the CSV for the current counter). P-XX (analysis prompts) is separate and populated by the app at runtime.
 
+**Git commit format (Method 2 — Seminar requirement):** Every commit MUST reference the P-DEV number in the message prefix:
+```
+git commit -m "[P-DEV-XX] <short description of what was built>"
+```
+Example: `[P-DEV-04] Write app.py: boot sequence, sidebar nav, screen router`
+This makes the git log a reproducible development timeline for scientific documentation.
+
+**Wissenschaftliche_Validierung values:**
+- `Durch Team geprüft` — visual/manual review by Ludwig
+- `Streamlit-Start erfolgreich` — app started without errors
+- `Syntax-geprüft, Import-test OK` — Python import + no syntax errors
+- `Ausstehend` — not yet reviewed
+- `Nicht anwendbar` — infrastructure/config tasks with no testable output
+
 ---
 
 ## Prompt Log Screen
