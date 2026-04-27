@@ -10,27 +10,27 @@ See: .planning/PROJECT.md (updated 2026-04-26)
 ## Current Position
 
 Phase: 1 of 4 (Scaffold & Style System)
-Plan: 0 of TBD in current phase
-Status: Ready to plan
-Last activity: 2026-04-26 — Roadmap created, ready to begin Phase 1 planning
+Plan: 2 of 3 in current phase (01-02 complete)
+Status: In progress
+Last activity: 2026-04-27 — Plan 01-02 (CSS Style System) complete
 
-Progress: [░░░░░░░░░░] 0%
+Progress: [██░░░░░░░░] 20%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 0
-- Average duration: —
-- Total execution time: 0 hours
+- Total plans completed: 1
+- Average duration: 2 min
+- Total execution time: ~2 min
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| - | - | - | - |
+| 1 - Scaffold & Style System | 1 | ~2 min | 2 min |
 
 **Recent Trend:**
-- Last 5 plans: —
+- Last 5 plans: 01-02 (2 min)
 - Trend: —
 
 *Updated after each plan completion*
@@ -46,14 +46,17 @@ Recent decisions affecting current work:
 - [Arch]: Custom CSS injection via `st.markdown` / `core/styles.py` — only way to apply glassmorphism in Streamlit
 - [Arch]: Plotly for charts — Streamlit-native, interactive out of the box
 - [Scope]: Phase 1 is GUI-only with mock data — no backend, no AI calls
+- [CSS]: inject_css() must be called every rerun; only _load_css() is cached (@st.cache_resource)
+- [CSS]: .glass-panel uses position:relative + isolation:isolate for backdrop-filter stacking context (Pitfall 3)
+- [Security]: T-1-06 mitigated — _load_css() warns (RuntimeWarning) on missing CSS files instead of crashing
 
 ### Pending Todos
 
-None yet.
+None.
 
 ### Blockers/Concerns
 
-None yet.
+None.
 
 ## Deferred Items
 
@@ -65,6 +68,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-26
-Stopped at: Roadmap and STATE.md created — no plans written yet
+Last session: 2026-04-27
+Stopped at: Plan 01-02 (CSS Style System) complete — Plan 01-03 (app.py entry point) is next
 Resume file: None
