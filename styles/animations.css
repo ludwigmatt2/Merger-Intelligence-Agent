@@ -1,0 +1,51 @@
+/* ── ANIMATIONS PLACEHOLDER ────────────────────────────────────────────────── */
+/* AI Core orb keyframes pre-defined here for Phase 2 use.                     */
+/* Phase 2 (screens/landing.py) will apply these classes to the orb div.       */
+
+/* Idle pulse — 3s cycle (LAND-02) */
+@keyframes orb-pulse-idle {
+    0%   { box-shadow: 0 0 20px #00D4FF, 0 0 40px rgba(0, 212, 255, 0.2), 0 0 80px rgba(123, 47, 190, 0.1); }
+    50%  { box-shadow: 0 0 40px #00D4FF, 0 0 80px rgba(0, 212, 255, 0.4), 0 0 120px rgba(123, 47, 190, 0.3); }
+    100% { box-shadow: 0 0 20px #00D4FF, 0 0 40px rgba(0, 212, 255, 0.2), 0 0 80px rgba(123, 47, 190, 0.1); }
+}
+
+/* Active pulse — 0.8s cycle after START ANALYSIS click (LAND-03) */
+@keyframes orb-pulse-active {
+    0%   { box-shadow: 0 0 30px #00D4FF, 0 0 60px rgba(0, 212, 255, 0.5), 0 0 100px rgba(123, 47, 190, 0.4); }
+    50%  { box-shadow: 0 0 60px #00D4FF, 0 0 120px rgba(0, 212, 255, 0.7), 0 0 160px rgba(123, 47, 190, 0.6); }
+    100% { box-shadow: 0 0 30px #00D4FF, 0 0 60px rgba(0, 212, 255, 0.5), 0 0 100px rgba(123, 47, 190, 0.4); }
+}
+
+.orb {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 40% 40%, #1a1a2e, #0A0A0F);
+    border: 2px solid rgba(0, 212, 255, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00D4FF;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    letter-spacing: 0.15em;
+    margin: 0 auto;
+}
+
+.orb-idle {
+    animation: orb-pulse-idle 3s ease-in-out infinite;
+}
+
+.orb-active {
+    animation: orb-pulse-active 0.8s ease-in-out infinite;
+}
+
+/* ── SCREEN FADE-IN (v2 placeholder) ──────────────────────────────────────── */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+.screen-enter {
+    animation: fadeIn 0.25s ease-out forwards;
+}
